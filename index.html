@@ -2,52 +2,87 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thomas Tran Portfolio</title>
-  <link rel="stylesheet" href="./assets/css/normalize.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thomas Tran Portfolio</title>
+    <link rel="stylesheet" href="./assets/CSS/normalize.css" />
+    <link rel="stylesheet" href="./assets/CSS/styles.css" />
 </head>
 
 <body>
     <header>
         <h1>Thomas Tran</h1>
         <nav>
-            <ul>
-                <li><a href="#"></a>About me</li>
-                <li><a href="#"></a>Work</li>
-                <li><a href="#"></a>Contact me</li>
-                <li><a href="#"></a>Resume</li>
-            </ul>
-            <h2>Cool subtitle here!</h2>
+            <a class="nav" href="#About Me">About me</a>
+            <a class="nav" href="#Work">Work</a>
+            <a class="nav" href="#Contact Me">Contact me</a>
+            <a class="nav" href="https://www.linkedin.com/in/thomasvtran2001/?trk=public-profile-join-page">Linkedin</a>
         </nav>
     </header>
 
+    <figcaption>
+        <img src="./assets/johannes-plenio-voQ97kezCx0-unsplash.jpg" alt="Lightbulb">
+    <h3>Excelior!</h3>
+    </figcaption>
+
     <main>
-        <section>
-            <h2>About Me</h2>
-                <p>Hi there, if you couldn't tell by the title of this page, my name is Thomas Tran and you are currently reading a terribly short autobiography that will try it's absolute best to encapsulate my lifestyle into just 2 paragraphs. Personally I tend to enjoy playing video games, listening to music of the eclectic variety, or failing to motive myself to hit the gym for more than just 30 minutes before giving up, going home, and enjoying some ice cream.</p>
-                <p>Now what led me to this point in my life? Well that has to do with my love for video games and my drive to pragmatically solve problems either independently or in association with those likeminded. At the time of writing this, I can confidently say that my grasp on this subect matter is slippery at best. However, given enough time and support I'm sure I'll know what the proper syntax to create an HTML file by hand is.</p>
+        <section class="box-flex-parent">
+            <aside>
+                <h2 class="aside-title">About Me</h2>
+            </aside>
+            <section>
+                <p>Hi there, if you couldn't tell by the title of this page, my name is Thomas Tran and you are
+                    currently reading a terribly short autobiography that will try it's absolute best to encapsulate my
+                    lifestyle into just 2 paragraphs. Personally I tend to enjoy playing video games, listening to music
+                    of the eclectic variety, or failing to motive myself to hit the gym for more than just 30 minutes
+                    before giving up, going home, and enjoying some ice cream.</p>
+                <p>Now what led me to this point in my life? Well that has to do with my love for video games and my
+                    drive to pragmatically solve problems either independently or in association with those likeminded.
+                    At the time of writing this, I can confidently say that my grasp on this subect matter is slippery
+                    at best. However, given enough time and support I'm sure I'll know what the proper syntax to create
+                    an HTML file by hand is.</p>
+            </section>
         </section>
-        <article>
-            <h2>Work</h2>
-                <p>Surf Report</p>
-                <p>LED Wall</p>
-                <p>Calculator</p>
-                <p>Pastel Puzzels</p>
-                <p>Run Buddy</p>
-        </article>
+        <section class="box-flex-parent">
+            <aside>
+                <h2 class="aside-title">Work</h2>
+            </aside>
+            <section>
+                <figure id="spotlight">
+                    <a target="_blank"
+                        href="https://thomasvtran.github.io/Horisean-accessibility-rework/">
+                        <img src="./assets/01-html-css-git-homework-demo.png" alt="Horisean">Horisean
+                    </a>
+                </figure>
+                <figure>
+                    <a href="https://github.com/ThomasVTran"><img src="./assets/jigar-panchal-wZvqKPc05TM-unsplash.jpg" alt="TBD">Surf Report
+                    </a>
+                </figure> 
+                <figure>
+                    <a href="https://github.com/ThomasVTran"><img src="./assets/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="Mockweb">Mockweb</a>
+                </figure>
+                <figure>
+                    <a href="https://github.com/ThomasVTran"><img src="./assets/tyler-lastovich-YrWh-gWj2os-unsplash.jpg" alt="TBD">Calculator</a> 
+                </figure>
+                <figure>
+                    <a href="https://github.com/ThomasVTran"><img src="./assets/peter-steiner-1973-p5TesJIs5iE-unsplash.jpg" alt="TBD">LED Wall</a>
+                </figure>
+            </section>
+        </section>
     </main>
-    
-    <footer>
-        <h2>Contact Me</h2>
-            <ul>
-                <li>Number</li>
-                <li>E-mail</li>
-                <li>Github</li>
-                <li>Twitter</li>
-                <li>Spotify</li>
-            </ul>
+
+    <footer class="box-flex-parent">
+        <aside>
+            <h2 class="aside-title">Contact Me</h2>
+        </aside>
+            <section>
+                <ul>
+                    <li><a href="">Number</a></li>
+                    <li><a href="mailto:ThomasVTran2001@gmail.com">ThomasVTran2001@gmail.com</a></li>
+                    <li><a href="https://github.com/ThomasVTran">Github</a></li>
+                    <li><a href="">Twitter</a></li>
+                </ul>
+            </section>
     </footer>
 </body>
 
