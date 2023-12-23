@@ -118,6 +118,7 @@ li a:visited {
 .box-flex-parent section figure {
 flex-basis: 50%;
 position: relative;
+
 }
 .box-flex-parent section figure img {
   width: 100%;
@@ -175,7 +176,23 @@ h2{
   border-color: var(--light-blue);
 }
 
-.nav:hover, section figure img:hover, li:hover {
+#About-Me{
+  align-content: baseline;
+  margin: 0;
+  padding: 0;
+  height: fit-content;
+}
+
+#me {
+  pointer-events: none;
+  flex-basis: 100%;
+  height: 25%;
+  width: 100%;
+  object-fit: cover;
+  border: none;
+}
+
+.nav:hover, .box-flex-parent section figure img:hover, li:hover {
   color: var(--white);
   box-shadow: -8px -10px 5px pink;
   transform: scale(1.05);

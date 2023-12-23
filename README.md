@@ -7,5 +7,5 @@ This mock portfolio allows for me, as a new developer in training, to freely exp
 ## Usage
 ![Img](./assets/Images/mock-up-portfolio%20SC.png)
 
-## Horisean accessibility rework
+## Git hub
  [Deployed link](https://thomasvtran.github.io/mock-up-portfolio/)
