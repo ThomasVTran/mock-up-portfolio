@@ -186,7 +186,7 @@ h2{
 #me {
   pointer-events: none;
   flex-basis: 100%;
-  height: 25%;
+  height: 200px;
   width: 100%;
   object-fit: cover;
   border: none;
@@ -198,6 +198,7 @@ h2{
   transform: scale(1.05);
 }
 
+/* allows for screen size accountability */
 @media screen and (max-width: 768px){
   h1{
     flex-basis: 100%;
